@@ -6,18 +6,6 @@ public class DeletionDetails {
     private long deletedDirectories = 0;
     private long deletedBytes = 0;
 
-    public long getDeletedFiles() {
-        return deletedFiles;
-    }
-
-    public long getDeletedDirectories() {
-        return deletedDirectories;
-    }
-
-    public long getDeletedBytes() {
-        return deletedBytes;
-    }
-
     public void addFile() {
         deletedFiles++;
     }
